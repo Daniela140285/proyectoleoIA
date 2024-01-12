@@ -50,6 +50,9 @@
     font-size: 20px;
 }
 /*--MAIN--*/
+main{
+    background-image: repeating-linear-gradient(45deg, hsla(64,83%,54%,0.05) 0px, hsla(64,83%,54%,0.05) 1px,transparent 1px, transparent 11px,hsla(64,83%,54%,0.05) 11px, hsla(64,83%,54%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(90deg, hsla(64,83%,54%,0.05) 0px, hsla(64,83%,54%,0.05) 1px,transparent 1px, transparent 11px,hsla(64,83%,54%,0.05) 11px, hsla(64,83%,54%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(0deg, hsla(64,83%,54%,0.05) 0px, hsla(64,83%,54%,0.05) 1px,transparent 1px, transparent 11px,hsla(64,83%,54%,0.05) 11px, hsla(64,83%,54%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(135deg, hsla(64,83%,54%,0.05) 0px, hsla(64,83%,54%,0.05) 1px,transparent 1px, transparent 11px,hsla(64,83%,54%,0.05) 11px, hsla(64,83%,54%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(90deg, rgb(223,207,180),rgb(153,127,102));
+}
 .cards_casas{
     width: 90%;
     margin: 0 auto;
@@ -60,7 +63,7 @@
 .cards_casas_container{
     width: 90%;    
     margin: 0 auto;
-    min-width: 100dvh;
+    min-width: 80dvh;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -70,7 +73,7 @@
 }
 .cards_casas_item{
     width: 30%;
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 2em;
     display: flex;
     flex-direction: column;
@@ -78,6 +81,7 @@
     -webkit-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.37);
     -moz-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.37);
     box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.37);
+    background-color: #eee5d7;
 }
 .card_casas_picture{
     min-width: 200px;
@@ -105,6 +109,7 @@
 .baños_container{
     width: 100%;
     max-width: 1200px;
+    height: 80dvh;
     overflow: hidden;
     margin: 0 auto;
     display: flex;
@@ -145,4 +150,18 @@
     padding: 5px 15px;
     background-color:   #c6b6a2 ;
     color: #000;
+}
+
+.final{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #c6b6a2 ;
+    border-top:1px solid #eee5d7;
+
+}
+.fa-brands{
+    color: #000;
+    font-size: 3rem;
+    padding: 0 20px;
 }
