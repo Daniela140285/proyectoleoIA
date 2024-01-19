@@ -11,26 +11,28 @@
     <title>Mi Rincón</title>
 </head>
 <body>
-    <header class="hero">
+    <header class="hero" id="logo" >
         
         <nav class="nav_bar">
             <div class="logo">
+                <a href="#logo">
                 <h1>Mi Rincón</h1>
                 <p>decoración</p>
+                </a>
             </div>
             <ul class="nav_links">
-                <li> <a href="#">Casas</a></li>
-                <li> <a href="#">Baños</a></li>
-                <li> <a href="#">Nosotros</a></li>
+                <li> <a href="#casas">Casas</a></li>
+                <li> <a href="#baños">Baños</a></li>
+                <li> <a href="#nosotros">Nosotros</a></li>
             </ul>
         </nav>
     </header>
     
 </body>
 <main>
-    <section class="cards_casas">
+    <section class="general" id="casas">
 
-        <h2>Casas</h2>
+        <h2 class="title">Casas</h2>
 
         <div class="cards_casas_container">
 
@@ -69,9 +71,9 @@
         </div>    
     </section>
 
-    <section class="baños">
+    <section class="general" id="baños">
 
-        <h2>Baños</h2>
+        <h2 class="title">Baños</h2>
 
         <div class="baños_container">
 
@@ -102,15 +104,19 @@
     </div>
     </section>
 
-    <section>
-        <h2>Nosotros</h2>
-        <p>Somos un equipo que damos vida a los espacios y creamos ambientes utilizando recursos estéticos</p>
-        <p>Nos centramos en la configuración estética de un espacio ya definido, tiene que ver más con la creatividad y con el valor añadido de un espacio al escoger los colores, los muebles y las texturas, determinar la iluminación, etc.</p>
-        
-        <figure>
-            <img src="" alt="">
-        </figure>
+    <section class="general" id="nosotros">        
+        <h2 class="title">Nosotros</h2>
+        <div class="nosotros_container">    
+            <div class=" nosotros_paragraph">
+                <p>Somos un equipo que damos vida a los espacios y creamos ambientes utilizando recursos estéticos</p>
+                <p>Nos centramos en la configuración estética de un espacio ya definido, tiene que ver más con la creatividad y con el valor añadido de un espacio al escoger los colores, los muebles y las texturas, determinar la iluminación, etc.</p>
+            </div> 
+            <figure class="nosotros_picture">
+                <img src="./assets/personas-removebg-preview.png" alt="personas">
+            </figure>
+        </div>
     </section>
+
 </main>
 
 <footer>
